@@ -16,7 +16,7 @@ function App() {
         {/**To scroll to top on changing route */}
         <ScrollToTop />
         <Navbar />
-        <div className="Content text-center text-4xl py-3 h-[3000px] text-black">
+        <div className="Content text-center text-4xl min-h-screen text-black">
           <Routes>
             <Route path="/" Component={Homepage} />
             <Route path="/Projects" Component={ProjectsPage} />
